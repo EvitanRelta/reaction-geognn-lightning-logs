@@ -1,11 +1,11 @@
-_geognn_encoder_hparams:
-  dropout_rate: 0.1
-  embed_dim: 256
-  num_of_layers: 3
 _logged_hparams:
   batch_size: 50
   dataset_size: 0
   notes: finetune qm9 (epoch=76) -> wb97
 dropout_rate: 0.1
+encoder_params:
+  dropout_rate: 0.1
+  embed_dim: 256
+  num_of_layers: 3
 lr: 0.0003
 out_size: 1
