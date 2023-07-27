@@ -1,0 +1,11 @@
+_logged_hparams:
+  batch_size: 50
+  dataset_size: 0
+  notes: finetune QM9 -> wb97xd3
+dropout_rate: 0.1
+encoder_params:
+  dropout_rate: 0.1
+  embed_dim: 256
+  num_of_layers: 3
+lr: 0.0003
+out_size: 1

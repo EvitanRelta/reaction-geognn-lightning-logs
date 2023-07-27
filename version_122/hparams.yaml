@@ -1,0 +1,8 @@
+_logged_hparams:
+  batch_size: 50
+  notes: finetune b97 (epoch=66) -> wb97
+dropout_rate: 0.1
+embed_dim: 256
+gnn_layers: 3
+lr: 0.0003
+out_size: 1

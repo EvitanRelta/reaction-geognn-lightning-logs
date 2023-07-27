@@ -1,0 +1,9 @@
+_logged_hparams:
+  batch_size: 50
+  dataset_size: 0
+  notes: OG sum pool, no-superimpose model
+dropout_rate: 0.1
+embed_dim: 256
+gnn_layers: 3
+lr: 0.0003
+out_size: 1

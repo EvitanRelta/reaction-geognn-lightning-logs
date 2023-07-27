@@ -1,0 +1,38 @@
+_logged_hparams:
+  batch_size: 16
+  dataset_size: 0
+  notes: pretrain -> QM9
+activation: !!python/object:torch.nn.modules.activation.LeakyReLU
+  _backward_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _buffers: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _is_full_backward_hook: null
+  _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _modules: !!python/object/apply:collections.OrderedDict
+  - []
+  _non_persistent_buffers_set: !!set {}
+  _parameters: !!python/object/apply:collections.OrderedDict
+  - []
+  _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  inplace: false
+  negative_slope: 0.01
+  training: true
+dropout_rate: 0.1
+encoder_params:
+  dropout_rate: 0.1
+  embed_dim: 256
+  num_of_layers: 3
+lr: 0.0001
+mlp_hidden_size: 1024
+num_of_mlp_layers: 3
+out_size: 2
+task_type: regression
